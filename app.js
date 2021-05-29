@@ -36,10 +36,10 @@ app.post("/", (req, res) => {
   res.json(req.body.post);
 });
 
-const PORT = 5000 || process.env.PORT;
+const port = 5000 || process.env.PORT;
 
-app.listen(PORT, () => {
+app.listen(port, () => {
   console.log(
-    `Server is running :  ${process.env.NODE_ENV} mode on port ${PORT}`
+    `Server is running :  ${process.env.NODE_ENV} mode on port ${port}`
   );
 });
