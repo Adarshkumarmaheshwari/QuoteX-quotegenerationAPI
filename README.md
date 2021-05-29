@@ -39,7 +39,7 @@ To start in the production environment\
  ``` npm start```
 
  ## How to use this API?
- Send get request to -> ``` address here ```
+ Send get request to -> ``` https://quotexapi.herokuapp.com/ ```
 
  ## Contribution 
  Kindly go to ``` CONTRIBUTE.md ``` file to read the contribution guidance.
