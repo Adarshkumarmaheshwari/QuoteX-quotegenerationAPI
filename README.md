@@ -40,6 +40,11 @@ To start in the production environment\
 
  ## How to use this API?
  Send get request to -> ``` https://quotexapi.herokuapp.com/ ```
+ 
+ ### Filter by Category or Author
+ 
+ You can send get request to ```https://quotexapi.herokuapp.com/?category=life``` or ```https://quotexapi.herokuapp.com/?author=Buddha```
+
 
  ## Contribution 
  Kindly go to ``` CONTRIBUTE.md ``` file to read the contribution guidance.
