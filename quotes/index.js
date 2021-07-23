@@ -20,17 +20,6 @@ function loadQuotes(whereQuoteCallback) {
     });
 }
 
-/**
- * @desc Get Random Quote
- * @param {[]} quotes
- * @return Promise<{{quote: string, author: string, category?:string}}>
- * */
-function rndQuote(quotes) {
-    const rnd = Math.floor(Math.random() * quotes.length - 1);
-    return quotes[rnd];
-}
-
 module.exports = {
-    loadQuotes,
-    rndQuote
+    loadQuotes
 }

@@ -34,7 +34,7 @@ app.get("/", (req, res) => {
     if (!quotes.length) {
       throw new Error('Quote on request not found.');
     }
-    const rnd = Math.floor(Math.random() * quotes.length - 1);
+    const rnd = Math.floor(Math.random() * (quotes.length - 1));
     return quotes[rnd];
   }).then((quote) => {
     res.json(quote);
